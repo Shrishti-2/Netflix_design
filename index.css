@@ -1,0 +1,366 @@
+body{
+    background-color: rgb(68, 66, 66);
+    color:white !important;
+}
+.section1{
+    width:100%;
+    height: 700px;
+    background-image:linear-gradient(0deg,rgba(0,0,0,.8) 0,transparent 60%,rgba(0,0,0,.8)),
+ url("https://i.ibb.co/mcL1kRt/IN-en-20221219-popsignuptwoweeks-perspective-alpha-website-large.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:center center;
+     opacity:0.89;
+    z-index: -1; 
+}
+ header{
+    display:flex; 
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    z-index: 1;
+}
+select{
+    border-color: black;
+}
+.btn-dark{
+    background-color:black;
+}
+.btn-danger{
+    background-color: red;
+    color:white;
+}
+.container{
+    align-items: center;
+    text-align: center;
+}
+.heading{
+    margin: 2px 3px 2px 3px;
+    z-index: 1;
+}
+.sec1h1{
+    font-size:3.1rem;
+}
+.sec1h1,.sec1h4{
+    margin-left: 15px;
+    padding-left: 10px;
+     z-index:1;
+}
+.email-form-text{
+    margin-top: 40px;
+    margin-bottom:10%;
+}
+.email-header{
+    margin-left: 15%;
+    margin-right: 5%;
+}
+.email{
+    height:60px;
+    width:45%;
+}
+.started{
+    color: white;
+    background-color:red;
+    height:61px;
+    font-weight:bold;
+    width:200px;border: radius 4px;
+    margin-left:-6px;
+}
+.section2, .section3,.section4,.section5{
+    background-color:black;
+    height:500px;
+    width:100%;
+    margin-top:1%;
+    padding:2px 10px;
+}
+.sec2, .sec3, .sec4, .sec5{display:flex;justify-content:space-between;}
+.sec2image{
+    position:relative;
+    margin: 0% -5% -5% 0;
+    z-index: 1;
+}
+.background__video__container{
+    height: 100%;
+    left: 46%;
+    max-height: 54%;
+    max-width: 73%;
+    position: absolute;
+    top: 49%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    z-index: -1;
+}
+.image {
+    width: 20%;
+    height: 80%;
+    float: left;
+    z-index: 1;
+    margin-top:3px;
+}
+.image__content{
+    display:flex;
+    border:1px solid grey;
+    border-radius: 20px;
+    z-index: 1;
+    position:absolute;
+    padding: 13px;
+    margin:-97px auto;
+    background-color: black;
+}
+.content{
+    margin-left:1px;
+    width:210px;
+}
+.gif{
+    margin-left:16px;
+    height:70px;
+    margin-top: 0px;
+}
+.sec3{
+    margin-top:20px;
+}
+.sec3text{
+    margin:45px 0 0 0;
+}
+.sec4image{
+    position:relative;
+    margin: 4% -5% -5% 0;
+} 
+.sec4text{
+    margin-top: 40px;
+}
+.tvimage{
+    position:inherit;
+    z-index:1
+}
+.video2cont{
+    margin-top: -69%;
+    margin-left:19%;
+    position:absolute;
+    z-index:0;
+}
+.sec5image{
+    margin-top:65px;
+    width:50%;
+}
+.section6{
+    background-color:black;
+    width:100%; 
+    margin-top:1%;}
+    /* padding-top: 10%;
+    padding-bottom:10%;
+} */
+.faq{
+    padding-top:5%;
+}
+.container1{
+    padding-bottom:10%;
+}
+footer{
+    background-color:black;
+    width:100%; 
+    margin-top:-8%;
+}
+.text_list {
+    margin-top: 3%;}
+.text_slide {
+        line-height: 2;
+        margin-top: 0.5%; 
+}
+.text_detail {
+    width: 55%;
+    background-color: #303030;
+    justify-content: space-between;
+    font-size: 25px;
+    color: #fff;
+    display: flex;
+    padding: 15px 20px;
+    margin-left: 22%;
+}
+.fa-plus:before {
+    content: "\f067";
+}
+.fal{
+    font-weight:300;
+    font-family: "Font Awesome 5 Pro";
+}
+footer{
+    background-color:rgb(10, 1, 2);
+    height:500px;
+    width:100%;
+}
+.footer-wrapper{
+    position:absolute;
+    padding-top:3%;
+}
+.footer-divider {
+    border-top: 1px solid #0e0202;
+    height: 0;
+    width: 100%;
+    text-decoration: none;
+}
+.site-footer {
+    margin: 0 auto;
+    padding-top: 30px;
+    width: 90%;
+}
+.footer-top-a,.footer-top {
+    color: #737373;
+    text-decoration: none;
+}
+.footer-top{
+    margin-left:-27%;
+}
+.footer-links {
+    box-sizing: border-box;
+    font-size: 13px;
+    max-width: 1000px;
+}
+.footer-link{
+    color:#737373;
+}
+.footer-link-item {
+    box-sizing: border-box;
+    display: inline-block;
+    margin-bottom: 16px;
+    min-width: 100px;
+    padding: 0 12px 0 0;
+    vertical-align: top;
+    width: 25%;
+}
+ul>li {
+    list-style-type: disc;
+    margin-bottom: 5px;
+    margin-left: 1.1em;
+}
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+ul.structural>li {
+    list-style: none;
+    margin-left: 0;
+}
+ul>li>a{
+    text-decoration: none;
+} 
+.again-lang{
+    margin-right:37%;
+}
+.netflix{
+    margin-right:37%;
+    color:#737373;
+    margin-top:20px;
+}
+ 
+@media  only screen and (min-width:315px) and  (max-width:948px){
+    .heading{
+        margin: 50px 3px 0px 3px;
+    }   
+    .section1{
+        width:100%;
+        height: 900px;
+    }     
+    .email{
+        width:80%;
+        display:block;
+         margin-left:10% ;
+        align-items: center;
+    }
+    .started{
+        height:61px;
+        width:200px;
+        margin-top: 10px;
+    }
+    .container{
+        margin-top:10px;
+    }
+    h1{
+        font-size:2.8rem;
+    }
+    h5{
+       margin-top:15px;
+    }
+    .section2, .section3,.section4,.section5{
+        background-color:black;
+        height:90%;
+        width:100%;
+        margin-top:1%;
+        padding:2px 10px;
+    }
+    .section1{
+        width:100%;
+    }
+    .sec2image{
+       padding-bottom: 7%;
+    }
+    .sec3{
+        margin-top:20px;
+        flex-flow:column-reverse;
+    }
+    .sec3image{
+        padding-bottom:15%;
+    }
+    .sec4text{
+        text-align:center;
+        align-items:center;
+    }
+    .sec4image{
+        padding-bottom:5%;
+    }
+    .tvimage{
+        position:inherit;
+        z-index:1
+    }
+    .video2cont{
+        margin-top: -47%;
+        margin-left:28%;
+        position:absolute;
+        z-index:0;
+    } 
+    .sec5{
+        flex-flow:column-reverse;
+    }
+    .children{
+        width:300px;
+    }
+    .container1{
+        padding-bottom:10%;
+    }
+.sec2,.sec4{display:inline-block;}
+}
+@media  only screen and  (max-width:598px){
+   .tv{
+    width:400px;
+   }
+   .background__video{
+    width:300px;
+   }
+} 
+@media only screen and (max-width:500px){
+    .tvimage{
+        width:400px;
+    }
+    .video{
+        width:250px;
+        height:300px;
+    }
+     .video2cont{
+        margin-top: -89%;
+        margin-left:25%;
+        position:absolute;
+        z-index:0;
+    } 
+}
+@media  only screen and (min-width:500px) and (max-width:729px){
+    .tvimage{
+        width:400px;
+    }
+    .video2cont{
+    margin-top: -72%;
+    margin-left: 19%;
+    position: absolute;
+    z-index: 0;
+}
+}
+ 
